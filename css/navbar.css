@@ -11,14 +11,14 @@ BARRA NAVEGADORA
 
 .navbar-custom {
   /*cambia el color de toda la barra*/
-  background-color: rgb(15, 82, 152);
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   color: #ffffff;
   border-radius: 0;
 }
 
 .navbar-custom .navbar-nav>li>a {
   /*selecciona el color de los links*/
-  color: rgb(179, 187, 213);
+  color: #f2f2f2;
 }
 
 .navbar-custom .navbar-nav>.active>a {
@@ -28,10 +28,11 @@ BARRA NAVEGADORA
 
 .navbar-custom .navbar-nav>li>a:hover, .navbar-custom .navbar-nav>li>a:focus, .navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus, .navbar-custom .navbar-nav>.open>a {
   /*selecciona el color de hover de los links sin dropdown*/
-  color: white;
+  color: #ff68a0;
   text-decoration: none;
   /*background-color: rgb(8, 116, 230);*/
-  background-color: rgb(15, 82, 152);
+  background-color: #f9f9f9;
+  border-radius: 5px;
 }
 
 .navbar-custom .navbar-brand {
@@ -51,12 +52,13 @@ BARRA NAVEGADORA
 
 .navbar-custom .navbar-nav .dropdown-menu {
   /*selecciona el color de todo el bloque de dropdowns*/
-  background-color: rgb(15, 82, 152);
+  background: linear-gradient(141deg, rgb(255, 255, 255) 0%, #ffffff 51%, #eeefee 75%);
+  border-radius: 5px;
 }
 
 .navbar-custom .navbar-nav .dropdown-menu>li>a {
   /*selecciona el color de los links al interior de los dropdowns*/
-  color: rgb(179, 187, 213);
+  color: rgb(161, 148, 193);
 }
 
 .navbar-custom .navbar-nav .dropdown-menu>li>a:hover, .navbar-custom .navbar-nav .dropdown-menu>li>a:focus {
